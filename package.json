@@ -6,8 +6,8 @@
   "type": "module",
   "scripts": {
     "prepare": "husky install",
-    "test": "node .",
-    "start": "jest",
+    "start": "node .",
+    "test": "jest",
     "start:dev": "jest --watchAll"
   },
   "keywords": [],
