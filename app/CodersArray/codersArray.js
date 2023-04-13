@@ -11,9 +11,8 @@ class CodersArray {
   push(item) {
     this.length++;
     this[this.length] = item;
+    return this.length;
   }
-
-  some(item) {}
 }
 
 export default CodersArray;
